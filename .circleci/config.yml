@@ -33,7 +33,6 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: ./node_modules/.bin/greenkeeper-lockfile-update
       - run: npm run build
 
       # run tests!
@@ -41,5 +40,3 @@ jobs:
 
       # send code coverage info to coveralls
       - run: cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
-
-      - run: ./node_modules/.bin/greenkeeper-lockfile-upload
