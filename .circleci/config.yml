@@ -36,7 +36,7 @@ jobs:
       - run: npm run build
 
       # run tests!
-      - run: npm run test
+      - run: npm run test:ci
 
       # send code coverage info to coveralls
       - run: cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
