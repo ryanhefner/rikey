@@ -1,26 +1,28 @@
-# 🧰 re-key
+# 🧰 rikey
 
-[![npm](https://img.shields.io/npm/v/re-key?style=flat-square)](https://www.pkgstats.com/pkg:re-key)
-[![NPM](https://img.shields.io/npm/l/re-key?style=flat-square)](LICENSE)
-[![npm](https://img.shields.io/npm/dt/re-key?style=flat-square)](https://www.pkgstats.com/pkg:re-key)
-[![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/re-key?style=flat-square)](https://coveralls.io/github/ryanhefner/re-key)
-[![codecov](https://codecov.io/gh/ryanhefner/re-key/branch/master/graph/badge.svg)](https://codecov.io/gh/ryanhefner/re-key)
-[![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/re-key?style=flat-square)](https://circleci.com/gh/ryanhefner/re-key)
+_(pronouned rē-kē, because `rekey` was taken)_
+
+[![npm](https://img.shields.io/npm/v/rikey?style=flat-square)](https://www.pkgstats.com/pkg:rikey)
+[![NPM](https://img.shields.io/npm/l/rikey?style=flat-square)](LICENSE)
+[![npm](https://img.shields.io/npm/dt/rikey?style=flat-square)](https://www.pkgstats.com/pkg:rikey)
+[![Coveralls github](https://img.shields.io/coveralls/github/ryanhefner/rikey?style=flat-square)](https://coveralls.io/github/ryanhefner/rikey)
+[![codecov](https://codecov.io/gh/ryanhefner/rikey/branch/master/graph/badge.svg)](https://codecov.io/gh/ryanhefner/rikey)
+[![CircleCI](https://img.shields.io/circleci/build/github/ryanhefner/rikey?style=flat-square)](https://circleci.com/gh/ryanhefner/rikey)
 
 Useful utilities for manipulating–and creating–Object instances.
 
 ## Install
 
-Via [npm](https://npmjs.com/package/re-key)
+Via [npm](https://npmjs.com/package/rikey)
 
 ```
-npm install --save re-key
+npm install --save rikey
 ```
 
-Via [Yarn](https://yarn.fyi/re-key)
+Via [Yarn](https://yarn.fyi/rikey)
 
 ```
-yarn add re-key
+yarn add rikey
 ```
 
 ## How to use
@@ -28,7 +30,7 @@ yarn add re-key
 ### `reKey`
 
 ```js
-import { reKey } from 're-key'
+import { reKey } from 'rikey'
 
 const newKeys = reKey({
   oldKey: 'something',

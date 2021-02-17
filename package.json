@@ -1,8 +1,8 @@
 {
-  "name": "re-key",
+  "name": "rikey",
   "version": "0.1.0",
   "description": "Useful utilities for manipulating–and creating–Object instances.",
-  "repository": "ryanhefner/re-key",
+  "repository": "ryanhefner/rikey",
   "keywords": [
     "react",
     "nextjs",
@@ -13,9 +13,9 @@
   "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryanhefner/re-key/issues"
+    "url": "https://github.com/ryanhefner/rikey/issues"
   },
-  "homepage": "https://github.com/ryanhefner/re-key#readme",
+  "homepage": "https://github.com/ryanhefner/rikey#readme",
   "funding": [
     {
       "type": "github",
