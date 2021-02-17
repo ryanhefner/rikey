@@ -1,4 +1,4 @@
-# ⛓ re-key
+# 🧰 re-key
 
 [![npm](https://img.shields.io/npm/v/re-key?style=flat-square)](https://www.pkgstats.com/pkg:re-key)
 [![NPM](https://img.shields.io/npm/l/re-key?style=flat-square)](LICENSE)
